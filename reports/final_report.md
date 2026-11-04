@@ -52,8 +52,6 @@ Penurunan accuracy dari epoch 9 ke epoch 10 menunjukkan bahwa memakai epoch tera
 
 Validation loss checkpoint terbaik adalah sekitar 0,42974. Notebook tidak mencetak seluruh train loss dan validation loss per epoch, sehingga kurva loss belum dibuat dari log yang tersedia.
 
-Isi `classification_report.csv`, `confusion_matrix.csv`, dan `validation_predictions.csv` belum disertakan sebagai berkas terpisah. Kategori yang paling sering salah belum dapat ditentukan. Notebook evaluasi disediakan untuk membaca berkas tersebut dan membuat grafik saat hasil run ditambahkan.
-
 ## Reproduksi dan keterbatasan
 
 Notebook yang sudah dirapikan telah dijalankan ulang oleh pemilik eksperimen di Kaggle. Repository memakai notebook terbaru tersebut dan mempertahankan kode serta outputnya. Penjelasan markdown diperbarui mengikuti hasil run baru. Function dan class pada script mandiri memiliki isi yang sama dengan kode notebook terbaru.
@@ -61,5 +59,3 @@ Notebook yang sudah dirapikan telah dijalankan ulang oleh pemilik eksperimen di 
 Sel instalasi memasang Transformers 4.57.1 dan safetensors. Output instalasi menampilkan perbedaan kebutuhan versi beberapa library lain pada lingkungan Kaggle, tetapi proses DiT tetap selesai sampai prediksi. Versi lengkap seluruh library belum dicatat. Python pada metadata notebook terbaru adalah 3.13.16. Seed tetap tidak menjamin hasil identik pada semua lingkungan GPU.
 
 Pemeriksaan duplikat belum dilakukan. Gambar identik yang tersebar antar-split dapat membuat validation accuracy terlalu tinggi. Pretraining memakai IIT-CDIP; kemungkinan dokumen kompetisi berasal dari korpus yang sama belum diperiksa. Penggunaan halaman pertama dan resize ke 224 piksel juga dapat menghilangkan informasi pada halaman lain atau detail kecil.
-
-Checkpoint, submission lengkap, loss per epoch, dan tabel evaluasi per kelas masih perlu diambil dari folder Output run Kaggle. Berkas tersebut tidak dapat direkonstruksi sepenuhnya dari contoh prediksi dan log yang tercetak.
