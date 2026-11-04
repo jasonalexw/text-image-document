@@ -1,0 +1,18 @@
+{
+  "MODEL_NAME": "microsoft/dit-base",
+  "IMAGE_SIZE": 224,
+  "BATCH_SIZE": 16,
+  "EPOCHS": 10,
+  "HEAD_EPOCHS": 0,
+  "LEARNING_RATE": 2e-05,
+  "HEAD_LEARNING_RATE": 0.0001,
+  "PATIENCE": 3,
+  "NUM_WORKERS": 2,
+  "PREPROCESS_WORKERS": 2,
+  "SEED": 42,
+  "source": "Konstanta dan sel instalasi pada notebook9001d9c1ba.ipynb",
+  "python_version": "3.13.16",
+  "gpu": "Tesla T4",
+  "normalization": "Diambil dari AutoImageProcessor saat run; nilainya tidak dicetak pada log.",
+  "transformers_requested_version": "4.57.1"
+}

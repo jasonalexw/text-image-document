@@ -1,0 +1,24 @@
+{
+  "final_model": "microsoft/dit-base",
+  "source_notebook": "notebook9001d9c1ba.ipynb",
+  "validation_accuracy": 0.8923605686611467,
+  "validation_macro_f1": 0.891977735841067,
+  "validation_loss": 0.4297408316004483,
+  "best_epoch": 9,
+  "public_score": null,
+  "private_score": null,
+  "public_score_status": "Belum dilaporkan untuk run notebook9001d9c1ba.ipynb.",
+  "validation_source": "Dictionary Hasil validation yang tercetak pada output sel 15 notebook terbaru.",
+  "metrics_file_source": "reports/metrics.json ditulis dari dictionary yang tercetak, bukan unduhan berkas output terpisah.",
+  "train_samples": 25601,
+  "validation_samples": 6401,
+  "test_predictions": 7994,
+  "hardware": "Tesla T4",
+  "previous_run": {
+    "source_notebook": "notebook19aedb9d96.ipynb",
+    "validation_accuracy": 0.8914,
+    "validation_macro_f1": 0.891,
+    "best_epoch": 10,
+    "public_score": 0.89711
+  }
+}

@@ -1,0 +1,22 @@
+# Dataset, checkpoint, hasil mentah, dan cache tidak dipush.
+/data/*
+!/data/.gitkeep
+/checkpoint/*
+!/checkpoint/.gitkeep
+/outputs/*
+!/outputs/.gitkeep
+
+*.tif
+*.tiff
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store

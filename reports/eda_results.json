@@ -1,0 +1,13 @@
+{
+  "train_rows": 32003,
+  "test_rows": 7994,
+  "classes": 16,
+  "largest_class": "scientific_publication",
+  "largest_class_count": 2056,
+  "smallest_class": "questionnaire",
+  "smallest_class_count": 1948,
+  "train_metadata_errors": 1,
+  "test_metadata_errors": 0,
+  "pixel_loading_checked": false,
+  "source": "Output tabel tersimpan pada eda-textimage.ipynb"
+}
